@@ -232,7 +232,7 @@ goto MENU
 :Three
 echo "OUTPUT DONE, CHANGING PASSWORD POLICIES!"
 REM Passwords must be 10 digits
-net accounts /minpwlen:10
+net accounts /minpwlen:14
 REM Passwords must be changed every 30 days
 net accounts /maxpwage:30
 REM Passwords can only be changed after 5 day has passed
